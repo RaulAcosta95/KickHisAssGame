@@ -1,0 +1,58 @@
+/* Colores */
+#CELESTE{
+    background-color: #00FFFB;
+}
+#VIOLETA{
+    background-color: #FF00F3;
+}
+#NARANJA{
+    background-color: #FF7800;
+}
+#VERDE{
+    background-color: #04FF00;
+}
+
+#JUEGO div img{
+    min-height: 15vh;
+    max-height: 15vh;
+}
+col{
+    text-align: center;
+    width: 130vh;
+}
+/* /Colores */
+/* Botones */
+
+/* /Botones */
+
+/* Clases por default para el programa */
+/* Estas clases son para la interactividad del juego */
+.hide{
+    display: none;
+    /* display: inline-block; */
+}
+.appear{
+    display: inline-block;
+}
+
+#CELESTE.light{
+    background-color: #aafaf9;
+}
+#VIOLETA.light{
+    background-color: #fbacf7;
+}
+#NARANJA.light{
+    background-color: #f5d4b8;
+}
+#VERDE.light{
+    background-color: #aaf0a9;
+}
+
+/* Clases opcionales */
+.floatleft{
+    float: left;
+}
+.borderojo{
+    border-style: solid;
+    border-color: red;
+}

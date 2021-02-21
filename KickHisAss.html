@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego Javascript</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/estilos1.css">
+    <!-- SweetAlert -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+</head>
+<body>
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col text-center">
+                    <br>
+                    <h1>Sensei Game</h1>
+                    <hr>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="wrapper">
+        <section class="main">
+            <div class="container"  id="BTN_EMPEZAR">
+                <div class="row">
+                    <div class="col text-center" >
+                        <br>
+                        <p>Hazle caso a tu sensei, sigue sus instrucciónes para patear el trasero de tus enemigos <br>
+                            Da click en la acción que se ilumina y sigue la secuencia para ganar! <br></p>
+                        <br>
+                        <button  type="button" class="btn btn-primary" onclick="empezarjuego()">EMPEZAR JUEGO NUEVO</button>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <article id="JUEGO" class="floatleft">
+            <div class="container-fluid">
+                <div class="row gameboard">
+                    <div class="col-12 text-center">
+                            <div id="CELESTE" class="color celeste left" data-color="celeste"><img src="./Imagenes/patada.png" alt="Patada"data-color="celeste"></div>
+                    </div>
+                    <div class="col-12 text-center">
+                        <div id="VIOLETA" class="color violeta left" data-color="violeta"><img src="./Imagenes/puño.png" alt="Puño"data-color="violeta"></div>
+                    </div>
+                    <div class="col-12 text-center">
+                        <div id="NARANJA" class="color naranja left" data-color="naranja"><img src="./Imagenes/patadabaja.png" alt="Patada Baja"data-color="naranja"></div>
+                    </div>
+                    <div class="col-12 text-center">
+                        <div id="VERDE"   class="color verde left"   data-color="verde"><img src="./Imagenes/rodilla.png" alt="Rodilla"data-color="verde"></div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article class="text-center">
+            <br>
+            <hr>
+            <br>
+            <p><b>Nota:</b></p>
+            <p>Lamentablmente en navegadores, al esconder el juego en el principio, la zona de colores pierde su propiedad de centrarse. <br>
+            Sin embargo, funciona bien en dispositivos móviles</p>
+            <p>Si ves esto en un dispositivo móvil (o responsive), verás este texto abajo del juego</p>
+            <p>Si ves esto en el navegador, verás este texto a la derecha del juego</p>
+        </article>
+    </section>
+    
+    <script src="./js/Script1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+</html>
