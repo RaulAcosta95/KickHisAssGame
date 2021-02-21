@@ -8,7 +8,7 @@ const VIOLETA = document.getElementById('VIOLETA');
 const NARANJA = document.getElementById('NARANJA');
 const VERDE = document.getElementById('VERDE');
 //Variables de uso
-const ULTIMO_NIVEL = 3;
+const ULTIMO_NIVEL = 10;
 //Oculta el juego al principio
 //Lamentablemente, al quitarlo, le quita las propiedades de centrado...
 JUEGO_html.classList.add('hide')
